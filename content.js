@@ -1,12 +1,5 @@
 // content.js
-//var firstHref = $("a[href^='http']").eq(0).attr("href");
-//console.log(firstHref);
-
-// try to destroy Content div
-//var die = document.getElementById("content")
-//while (die.hasChildNodes()) {   
-//  die.removeChild(die.firstChild);
-//}
+// Finds the news section and replaces the text with a short message
 
 // Change News heading
 x = document.getElementById("In_the_news");
@@ -20,6 +13,6 @@ while (die.hasChildNodes()) {
 }
 // Add some replacement message
 var cont = document.createElement("p");
-var t = document.createTextNode("Lots of real nice things happened today. Hurrah. [Neutralising noisy news since '19]");       // Create a text node
+var t = document.createTextNode("Noisy news now neutralised");       // Create a text node
 cont.appendChild(t);   
 die.appendChild(cont);
