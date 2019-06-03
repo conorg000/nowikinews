@@ -1,0 +1,7 @@
+{
+    "name": "NoWikiNews",
+    "version": "0.1",
+    "description": "Noisy News Needs Neutralising",
+    "manifest_version": 2,
+	"content_scripts": [{"matches": ["https://en.wikipedia.org/wiki/Main_Page","https://en.wikipedia.org/wiki/Main_Page"], "js": ["jquery-2.2.4.min.js","content.js"]}]
+}
